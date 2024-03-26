@@ -1,21 +1,19 @@
 ## Predictive modeling for autism spectrum disorder
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Early Prediction of Austim spectrum disorder among people using machine learning models
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Predictive modeling for autism spectrum disorder (ASD) involves the use of statistical techniques and machine learning algorithms to analyze various factors and predict the likelihood of ASD diagnosis or identify patterns related to ASD traits. These models can help in early detection, intervention planning, and understanding the underlying mechanisms of ASD.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
+
+- Stratification of data
+- Multi model data integration.
 - High scalability.
 - Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- cost efficient
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
+
 * Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
 * Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
 * Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
@@ -25,34 +23,56 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 * Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+
+![image](https://github.com/SAFZZ/Projectwork2/assets/75234912/069a10c1-22e0-4808-8bb2-351955533faf)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output1 - Traning and validation accuracy
+![image](https://github.com/SAFZZ/Projectwork2/assets/75234912/58cfe6da-036c-49b1-9ec2-097653515d6a)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Heatmap
+![image](https://github.com/SAFZZ/Projectwork2/assets/75234912/871fd26f-5d30-45eb-a215-0d462a56c5f9)
+
+
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
+In conclusion, the autism prediction model utilizing various classifiers such as Gradient Boosting, Support Vector Classifier (SVC), Random Forest, K-Nearest Neighbors (KNN), among others, has demonstrated remarkable efficacy and robustness in its performance. The amalgamation of these classifiers has resulted in a model that not only exhibits high accuracy but also provides insightful metrics such as confusion matrices and heatmaps for better understanding and interpretation.Through meticulous training and validation, the model has showcased its capability to accurately predict autism spectrum disorder (ASD) based on the input features. The utilization of multiple classifiers adds layers of sophistication, enabling the model to capture diverse patterns within the data and make more nuanced predictions.
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+ [1]
+ S. Bhat, U. R. Acharya, H. Adeli, G. M. Bairy, and A. Adeli, “Autism: cause factors, early
+ diagnosis and therapies,” Reviews in the Neurosciences, vol. 25, no. 6, pp. 841–850, 2014.
+ [2}J. L. Matson, N. C. Turygin, J. Beighley, R. Rieske, K. Tureck, and M. L. Matson, “Applied
+ behavior analysis in autism spectrum disorders: recent developments, strengths, and pitfalls,”
+ Research in Autism Spectrum Disorders, vol. 6, no. 1, pp. 144–150, 2012.
+ [3] U. Frith and F. Happé, “Autism spectrum disorder,” Current Biology, vol. 15, no. 19, pp.
+ R786–R790, 2005.
+ [4] I. Rapin, “The autistic-spectrum disorders,” New England Journal of Medicine, vol. 347, no. 5, pp.
+ 302-303, 2002.
+ [5] P. J. Landrigan, “What causes autism? Exploring the environmental contribution,” Current
+ Opinion in Pediatrics, vol. 22, no. 2, pp. 219–225, 2010.
+ [6] J. S. Sutcliffe, “Insights into the pathogenesis of autism,” Science, vol. 321, no. 5886, pp. 208-209,
+ 2008.AUTISM TREATMENT CENTER OF AMERICA, What is autism? 2021,
+ https://autismtreatmentcenter.org/knowledge-base/what-is-autism-overview/?gclid=EAIaIQob
+ ChMIu7u77Nq46gIVgtKyCh3OAQQhEAAYASAAEgJk9fD_BwE.
+ [6] A. Zunino, P. Morerio, and A. Cavallo, “Video gesture analysis for autism spectrum disorder
+ detection,” in Proceedings of the 2018 24th International Conference on Pattern Recognition
+ (ICPR), pp. 3421–3426, IEEE, Beijing, China, November 2018.
+ [7] G. Dawson and R. Bernier, “A quarter century of progress on the early detection and treatment of
+ autism spectrum disorder,” Development and Psychopathology, vol. 25, no. 4pt2, pp.
+ 1455–1472, 2013.
+ [8] A. Kazeminejad and R. C. Sotero, “Topological properties of resting-state fMRI functional
+ networks improve machine learning-based autism classification,” Frontiers in Neuroscience,
+ vol. 12, p. 1018, 2019.
+ [9]X. Li, N. C. Dvornek, J. Zhuang, P. Ventola, and J. S. Duncan, “Brain biomarker interpretation in
+ asd using deep learning and fmri,” in Proceedings of the Medical Image Computing and
+ Computer Assisted Intervention- MICCAI 2018, pp. 206–214, Springer, Granada, Spain,
+ September 2018
 
 
 
